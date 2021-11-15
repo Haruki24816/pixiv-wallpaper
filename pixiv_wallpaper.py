@@ -64,5 +64,4 @@ if __name__ == "__main__":
         notification.notify(title="pixiv-wallpaper", message="エラーが発生しました")
         print(e)
     finally:
-        pass
         driver.quit()
